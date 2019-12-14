@@ -22,7 +22,7 @@ function App(props) {
   return (
     <div>
       {circles.map((circle, index) => {
-        return <Circle {...circle} key={circle.id} tabIndex={index + 1} />
+        return <Circle {...circle} key={circle.id}/>
       })}
     </div>
   )
